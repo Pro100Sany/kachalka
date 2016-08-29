@@ -1,0 +1,147 @@
+body {
+  /*   background: url(../img/press1+1.jpg) no-repeat;; /* Путь к фоновому изображению */
+    background-size: 100%; 
+   }
+.showBorders {
+    border-style: solid;
+    border-width: 2px;
+    color:#000;
+}
+.showBordersRed {
+    border-style: solid;
+    border-width: 2px;
+    color:#c9302c;
+}
+.showBordersGreen {
+    border-style: solid;
+    border-width: 2px;
+    color:#3e8f3e;
+}
+.showBordersBlue {
+    border-style: solid;
+    border-width: 2px;
+    color:#269abc;
+}
+.showBordersPink {
+    border-style: solid;
+    border-width: 2px;
+    color:#ff9999;
+}
+
+/* MAIN_MENU */
+.box_menu {
+    height: 50px;
+    border-left: 1px blue solid;
+    text-align: center;
+    font-size: 18px;
+    color: #269abc;
+    padding-top: 15px;
+    background: #fff;
+}
+.box_menu:hover {
+    background: #00baff;
+    font-size: 21px;
+    padding-top: 12px;
+    transition: 0.3s;
+}
+.box_menu:not(:hover) {
+    transition: 0.3s;
+    font-size: 18px;
+    color: #269abc;
+    padding-top: 15px;
+    background: #fff;
+}
+.box_autorisation {
+    height: 50px;
+    border-left: 1px blue solid;
+    font-size: 18px;
+    padding-top: 15px;
+    background: #fff;
+}
+.log_input{
+    font-size: 18px;
+    color: #269abc;
+    border-width: 1px;
+    border-color:#2bd7e7;
+    border-style:solid;
+    border-radius: 15px;
+}
+.log_input:focus{
+    border:none;
+}
+.log_submit{
+    background: #217be0;
+    font-size: 18px;
+    color: #fff;
+    border-width: 1px;
+    border-color:#2bd7e7;
+    border-style:solid;
+    border-radius: 15px;
+}
+.log_submit:focus{
+    border:none;
+    background: #fff;
+    color: #217be0;
+}
+/* EXERCISE FILTER */
+.muscle_group {
+    height: 250px;
+    overflow-y:scroll;
+}
+.muscle_ul {
+    list-style: none;
+    font-size: 18px;
+    line-height:30px;
+}
+.muscle_checkbox{
+    display: inline-block;
+}
+.inventory_group {
+    height: 250px;
+    overflow-y:scroll;
+}
+.inventory_ul {
+    list-style: none;
+    font-size: 18px;
+    line-height:30px;
+}
+.inventory_checkbox{
+    display: inline-block;
+}
+/* LISTS OF SELECTED MUSCLES AND INVENTORY*/ 
+
+.checked_muscl{
+    font-size: 16px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: solid 1px #217be0;
+}
+.checked_inventory{
+    font-size: 16px;
+    padding-left: 5px;
+    padding-left: 5px;
+    border-left: solid 1px #217be0;
+}
+/* SHOW EXERCISES*/ 
+.showBox{
+    margin: 7.5px 0px;
+}
+.box_description{
+    height: 150px;
+    
+     
+    overflow: hidden;     
+    text-overflow: ellipsis;   
+    display: block;            
+
+}
+/*.box_description:hover { 
+    background: #f0f0f0;  Цвет фона 
+    white-space: normal;  Обычный перенос текста 
+   }*/
+/* FOOTER*/ 
+.footer {
+  background: #dddbdb;
+  box-shadow: 0px -4px 21px -5px #000000;
+
+}
